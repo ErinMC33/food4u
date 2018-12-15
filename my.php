@@ -32,7 +32,7 @@
 <body>
 
 <div class="row topnav">
-  <a href="food4u.php" style="font-size:1em; margin-left:48%;">HomePage</a>
+  <a href="index.php" style="font-size:1em; margin-left:48%;">HomePage</a>
 </div>
 
 

@@ -29,6 +29,6 @@
 <h1 >Login to add recipes.</h1>
 
 <br>
-<a href="food4u.php">Back to Home</a>
+<a href="index.php">Back to Home</a>
 </body>
 </html>

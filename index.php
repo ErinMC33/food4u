@@ -47,7 +47,7 @@
     </div>
  <!--- Search Bar --> 
     <div  >
-      <form  action="food4u.php" method="post">
+      <form  action="index.php" method="post">
         <div class="form-row align-items-center">
           <div class="col-lg-5 my-1">
             <input input type="varchar" class="form-control" name="search" value="<?php echo $search;?>" class="form-control" id="search" placeholder="Search...">
