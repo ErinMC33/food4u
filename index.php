@@ -123,13 +123,13 @@ function closeNav() {
 
 
  <?php
-  $servername = "localhost";
-  $username = "postgres";
-  $password = "Meiling3";
+  $servername = "ec2-23-21-65-173.compute-1.amazonaws.com";
+  $username = "zwjmdiampxrhgo";
+  $password = "24d7a80f4af5c8300b6edd955a0cdb7fccbc270d735db44797b7587e50f25cf9";
 
 //Connect
   try {
-    $conn = new PDO("pgsql:host=$servername;dbname=food4u", $username, $password);
+    $conn = new PDO("pgsql:host=$servername;dbname=daq7ogisnv0tft", $username, $password);
     // set the PDO error mode to exception
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
    // echo "Connected successfully"; 
@@ -161,10 +161,10 @@ class TableRows extends RecursiveIteratorIterator {
 } 
 
 //Search bar
-  $servername = "localhost";
-  $username = "postgres";
-  $password = "Meiling3";
-  $dbname = "food4u";
+  $servername = "ec2-23-21-65-173.compute-1.amazonaws.com";
+  $username = "zwjmdiampxrhgo";
+  $password = "24d7a80f4af5c8300b6edd955a0cdb7fccbc270d735db44797b7587e50f25cf9";
+  $dbname = "daq7ogisnv0tft";
 
   $search = $_POST['search'];
   $mprice = $_POST['mprice'];
